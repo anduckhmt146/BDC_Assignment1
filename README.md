@@ -51,5 +51,5 @@ Nhóm sẽ sử dụng các nguồn tài liệu học tập đã đề cập ở
   * Huỳnh Nguyên Phúc
   * Phạm Đức Minh
 # Contact
-  If you have any question, contact us [here](ducan1406@gmail.com).
+ Nếu các bạn có câu hỏi hay vấn đề cần thảo luận, contact us [here](ducan1406@gmail.com).
 
