@@ -373,7 +373,7 @@ const data = {
             text: 'Để lại email để cập nhật những thông tin mới nhất về dự án chúng mình nhé.'
         },
         copyright: {
-            text: '&copy 2022 Bản quyền thuộc về Team 1, BDC HCMUT. | Design by',
+            text: '© 2022 Bản quyền thuộc về Team 1, BDC HCMUT. | Design by',
             link : 'https://github.com/anduc146khmt/BDC_Assignment1',
             author: 'Team 1',
         }
