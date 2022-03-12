@@ -798,9 +798,42 @@ const app = {
         });
     },
     handleScroll: function() {
-        // document.onscroll = function() {
-        //     console.log(window.scrollY);
-        // }
+        const introTop = $('#intro').offsetTop;
+        const destinationTop = $('#destination').offsetTop;
+        const ideaTop = $('#idea').offsetTop;
+        const documentTop = $('#document').offsetTop;
+        const teamTop = $('#team').offsetTop;
+        const contactTop = $('#contact').offsetTop;
+        document.onscroll = function() {
+            if(inRange(window.scrollY, 0, introTop)) {
+                $('.active').classList.remove('active');
+                $('.list').classList.add('active');
+            }
+            else if(inRange(window.scrollY, introTop, destinationTop)) {
+                $('.active').classList.remove('active');
+                $('.list:nth-child(2)').classList.add('active');
+            }
+            else if(inRange(window.scrollY, destinationTop, ideaTop)) {
+                $('.active').classList.remove('active');
+                $('.list:nth-child(3)').classList.add('active');
+            }
+            else if(inRange(window.scrollY, ideaTop, documentTop)) {
+                $('.active').classList.remove('active');
+                $('.list:nth-child(4)').classList.add('active');
+            }
+            else if(inRange(window.scrollY, documentTop, teamTop)) {
+                $('.active').classList.remove('active');
+                $('.list:nth-child(5)').classList.add('active');
+            }
+            else if(inRange(window.scrollY, teamTop, contactTop)) {
+                $('.active').classList.remove('active');
+                $('.list:nth-child(6)').classList.add('active');
+            }
+            else {
+                $('.active').classList.remove('active');
+                $('.list:nth-child(7)').classList.add('active');
+            }
+        }
     },
     handleEvent: function() {
         this.handleLink();
@@ -811,4 +844,7 @@ const app = {
         this.handleEvent();
     }
 }
+function inRange(x, min, max) {
+    return x > min && x < max; 
+};
 app.start();

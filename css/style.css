@@ -416,8 +416,7 @@ img:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     top: 50%;
-    width: 90%;
-    height: 80px;
+    width: 90%;padding: 10px 0;
     background-color: rgba(255, 255, 255, 0.212);
     font-family: "poppins";
     display: flex;
@@ -426,14 +425,15 @@ img:hover {
     border-radius: 10px;
     color: white;
     text-align: center;
-    font-size: 1rem;
+    font-size: 2rem;
 }
 .responsive img {
     width: 100%;
     height: 100%;
-    filter: blur(2.5px);
+    margin : auto;
+    overflow: hidden;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
     .responsive {
         display: block;
         height: 100%;
