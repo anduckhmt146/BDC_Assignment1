@@ -260,7 +260,7 @@ const data = {
         title: 'We are Team 1',
         content: [
             {
-                avatar: './img/khoa.jpg',
+                avatar: './img/khoa2.jpg',
                 fullName: 'Nguyễn Đặng Anh Khoa',
                 position: 'Team Leader',
                 intro: 'K20 Khoa Học Máy Tính, ĐH Bách Khoa TPHCM',
@@ -287,10 +287,10 @@ const data = {
                 phone: 'tel:0362020259'
             },
             {
-                avatar: './img/minh.jpg',
+                avatar: './img/minh2.jpg',
                 fullName: 'Phạm Đức Minh',
                 position: 'Member',
-                intro: 'K21 Khoa Học Máy Tính, ĐH Bách Khoa TPHCM',
+                intro: 'K21 Kỹ Thuật Máy Tính, ĐH Bách Khoa TPHCM',
                 facebook: 'https://www.facebook.com/phamdkminh',
                 email: 'mailto:phamduc1365@hcmut.edu.vn',
                 phone: 'tel:0909712391'
@@ -798,6 +798,7 @@ const app = {
         });
     },
     handleScroll: function() {
+        const defaultTop = -100;
         const introTop = $('#intro').offsetTop;
         const destinationTop = $('#destination').offsetTop;
         const ideaTop = $('#idea').offsetTop;
@@ -805,32 +806,32 @@ const app = {
         const teamTop = $('#team').offsetTop;
         const contactTop = $('#contact').offsetTop;
         document.onscroll = function() {
-            if(inRange(window.scrollY, 0, introTop)) {
-                $('.active').classList.remove('active');
+            if(inRange(window.scrollY, defaultTop, introTop)) {
+                $('.list.active').classList.remove('active');
                 $('.list').classList.add('active');
             }
             else if(inRange(window.scrollY, introTop, destinationTop)) {
-                $('.active').classList.remove('active');
+                $('.list.active').classList.remove('active');
                 $('.list:nth-child(2)').classList.add('active');
             }
             else if(inRange(window.scrollY, destinationTop, ideaTop)) {
-                $('.active').classList.remove('active');
+                $('.list.active').classList.remove('active');
                 $('.list:nth-child(3)').classList.add('active');
             }
             else if(inRange(window.scrollY, ideaTop, documentTop)) {
-                $('.active').classList.remove('active');
+                $('.list.active').classList.remove('active');
                 $('.list:nth-child(4)').classList.add('active');
             }
             else if(inRange(window.scrollY, documentTop, teamTop)) {
-                $('.active').classList.remove('active');
+                $('.list.active').classList.remove('active');
                 $('.list:nth-child(5)').classList.add('active');
             }
             else if(inRange(window.scrollY, teamTop, contactTop)) {
-                $('.active').classList.remove('active');
+                $('.list.active').classList.remove('active');
                 $('.list:nth-child(6)').classList.add('active');
             }
             else {
-                $('.active').classList.remove('active');
+                $('.list.active').classList.remove('active');
                 $('.list:nth-child(7)').classList.add('active');
             }
         }
