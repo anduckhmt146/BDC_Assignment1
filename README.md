@@ -47,7 +47,7 @@ Nhóm sẽ sử dụng các nguồn tài liệu học tập đã đề cập ở
 
 # Thành viên
   * Nguyễn Đặng Anh Khoa (**Team Leader**) - CS K20
-  * Nguyễn Đức An
+  * Nguyễn Đức An - CS K20
   * Huỳnh Nguyên Phúc - CS K21
   * Phạm Đức Minh
 # Contact
