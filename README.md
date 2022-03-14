@@ -46,7 +46,7 @@ Nhóm sẽ sử dụng các nguồn tài liệu học tập đã đề cập ở
 * Thời gian nhóm dự kiến cho giai đoạn này: ~ 1 tháng.
 
 # Thành viên
-  * Nguyễn Đặng Anh Khoa (**Team Leader**)
+  * Nguyễn Đặng Anh Khoa (**Team Leader**) - CS K20
   * Nguyễn Đức An
   * Huỳnh Nguyên Phúc
   * Phạm Đức Minh
