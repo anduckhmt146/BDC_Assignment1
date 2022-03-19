@@ -26,9 +26,13 @@ Chào mọi người, chúng mình đến từ **nhóm 1, Big Data Club, HCMUT**
 
 * Ở mục này, vì các thành viên trong nhóm đều là những người mới tiếp cận với lĩnh vực Data Science cũng như những kiến thức chuyên sâu về Data Mining, Machine Learning, Data Analytics còn hạn chế nên ngoài các công trình nghiên cứu liên quan như các bài báo khoa học trong nước và quốc tế, luận văn thạc sĩ, tiến sĩ mà nhóm thu thập được, nhóm sẽ đề xuất thêm các bài giảng, cuốn sách và tài liệu điện tử khác liên quan đến kiến thức về Data Science, Data Mining, Apache Spark,  PySpark… để các thành viên của nhóm cùng tìm hiểu cũng như chia sẻ đến mọi người.
 
-* Update soon...
-
-
+   + Data mining analysis tool for Moodle Learning management system (LMS) - Gokhan Akapinar, Alper Bayazit.
+   + Moodle data retrival for educational data mining - Felermina Ali.
+   + Data set of student’s performance using student information system, Moodle and the mobile application “eDiffy” - Raza Hasan, Sellappan Palaniappan, Salman Mahmood, Ali Abbas, Kamal Uddin Sarker.
+   + Prediction of student academic performance using Moodle data from further education setting - Rory Joshep Quinn, Geraldine Gray.
+   + Development of Machine learning (ML) model using study behavior of student academic performance through Moodle log - Edmund D. Evogelista.
+   + Analytic on Moodle Data using R package for enhanced learning management - V. Rachel, G. Sudhamthy, M. Parthasanathy.
+   + Real-time analysis of student’s activities on an E-learning platform base on apache Spark - Abdemajid Chaffai, Larbi Hassouni, Hounda Anoun.  
 # Kế hoạch triển khai
 * Giai đoạn 1 - Tìm hiểu lý thuyết và thực hành các dự án đơn giản 
 Nhóm sẽ sử dụng các nguồn tài liệu học tập đã đề cập ở phần 3.1 để làm nội dung hướng dẫn lý thuyết cho các thành viên. Cụ thể sẽ có 3 phần chính như sau:
@@ -49,7 +53,7 @@ Nhóm sẽ sử dụng các nguồn tài liệu học tập đã đề cập ở
   * Nguyễn Đặng Anh Khoa (**Team Leader**) - CS K20
   * Nguyễn Đức An - CS K20
   * Huỳnh Nguyên Phúc - CS K21
-  * Phạm Đức Minh
+  * Phạm Đức Minh - CE K21
 # Contact
  Nếu các bạn có câu hỏi hay vấn đề cần thảo luận, contact us [here](ducan1406@gmail.com).
 
